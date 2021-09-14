@@ -4,4 +4,4 @@
    using: "composite"
    steps:
      - name: "Say hello"
-       run: "echo hello world"
+       run: "echo goodnight world"
