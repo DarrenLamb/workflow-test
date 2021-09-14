@@ -1,0 +1,7 @@
+ name: 'Do the thing'
+ description: 'A test to see what happens if you update an imported action as part of a PR'
+ runs:
+   using: "composite"
+   steps:
+     - name: "Say hello"
+       run: "echo hello world"
