@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: "Checking out from GitHub"
         uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
         
       - name: "Do the thing"
         uses: ./.github/actions/do-the-thing
