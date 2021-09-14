@@ -3,6 +3,6 @@
  runs:
    using: "composite"
    steps:
-     - name: "Say hello"
-       run: "echo hello world"
+     - name: "Say goodbye"
+       run: "echo goodbye world"
        shell: bash
